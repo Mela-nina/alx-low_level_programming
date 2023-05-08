@@ -18,9 +18,9 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * check_elf - Checks if a file is an ELF file.
- * @e_ident: A pointer to an array containing the ELF magic numbers.
- * Description: If the file is not an ELF file - exit code 98.
+ * check_elf - This checks if a file is an ELF file.
+ * @e_ident: This pointes to an array containing the ELF magic numbers.
+ * Description: Exit code 98 If the file is not an ELF file
  */
 void check_elf(unsigned char *e_ident)
 {
